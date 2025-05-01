@@ -9,3 +9,10 @@ Il existe aussi des caméras mobiles embarquées dans des véhicules en mouvemen
 
 
 - Techniques de prétraitement : suppression du bruit, normalisation, et extraction des régions d'intérêt (plaques). 
+
+https://smodin.io/free-english-rewriter-and-spinner
+
+
+text = "Certaines caméras utilisent la vision infrarouge ou thermique pour fonctionner la nuit ou par mauvais temps. D'autres véhicules sont équipés de la reconnaissance automatique des plaques d'immatriculation (ANPR ou LAPI), qui extrait le texte de la plaque d'immatriculation en temps réel et le compare à une base de données (véhicules volés, véhicules non assurés, etc.). Enfin, les images sont transmises à un centre de traitement pour analyse. Si une infraction est détectée (excès de vitesse, feu rouge grillé, etc.), une amende peut être générée automatiquement sur la base des données extraites."
+cleaned_text = text.replace("\u034F", "")  # Supprime U+034F
+print(cleaned_text)
